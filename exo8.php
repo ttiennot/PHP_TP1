@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -23,7 +23,7 @@ include 'header.php';
         echo "vous etes connecté";
     ?>
         <form action="" method="post">
-            <input type="submit" name="delete" value="supprimer">
+            <input type="submit" name="delete" value="deconnexion">
         </form>
         <?php
     } else {
